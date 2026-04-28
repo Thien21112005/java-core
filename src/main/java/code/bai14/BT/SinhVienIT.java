@@ -16,4 +16,9 @@ public class SinhVienIT extends SinhVien {
     public String getLanguage() {
         return language;
     }
+
+    @Override
+    void laugh() {
+        System.out.println("hu hu hihi khec khec");
+    }
 }

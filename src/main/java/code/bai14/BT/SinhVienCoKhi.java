@@ -7,4 +7,9 @@ public class SinhVienCoKhi extends SinhVien {
         super(id, name, price, tax);
         this.skill = skill;
     }
+
+    @Override
+    void laugh() {
+        System.out.println("huhuhu hihihihi");
+    }
 }

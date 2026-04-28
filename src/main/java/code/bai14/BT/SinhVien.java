@@ -1,6 +1,6 @@
 package code.bai14.BT;
 
-public class SinhVien {
+public abstract class SinhVien {
     protected String id;
     protected String name;
     protected Double price;
@@ -13,6 +13,9 @@ public class SinhVien {
         this.price = price;
         this.tax = tax;
     }
+
+    abstract void laugh();
+
 
     public Double getTaxPrice() {
         return price * tax;
